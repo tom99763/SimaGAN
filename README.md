@@ -1,4 +1,4 @@
-# InfoDSGAN
+# SimaGAN
 
 Train models
 
