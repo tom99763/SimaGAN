@@ -1,0 +1,13 @@
+c_dim : 8
+z_dim : 128
+dim : 64
+max_filters : 512
+norm : 'bn'
+act : 'lrelu'
+num_downsamples : 6
+num_resblocks : 2
+        
+#losses
+beta : 0.
+lambda_ce : 1.0
+lambda_zr : 0.1

@@ -1,0 +1,16 @@
+nclass : 8
+dim : 64
+c_dim : 256
+s_dim : 64
+q_dim : 256
+max_filters : 256
+num_downsamples : 3
+norm : 'in'
+act : 'lrelu'
+
+gan_loss : 'nsgan'
+gp_type : 'r1'
+
+tau : 0.1
+lambda_r : 1.0 #0:w/o recon
+lambda_dce : 1.0 #0: w/o contra

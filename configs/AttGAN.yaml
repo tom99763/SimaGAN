@@ -1,0 +1,10 @@
+nclass : 8
+dim : 64
+norm : 'bn'
+act : 'lrelu'
+num_downsamples : 5
+lambda_r : 1
+lambda_cls_g : 1
+lambda_cls_d : 1
+gan_loss : 'wgan'
+gp_type : 'wgan'
