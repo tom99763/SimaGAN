@@ -1,0 +1,12 @@
+nclass : 8
+dim : 64
+norm : 'in'
+act : 'relu'
+num_downsamples : 3
+num_resblocks : 6
+
+#loss
+gan_loss : 'wgan'
+gp_type : 'wgan'
+lambda_cls : 1.
+lambda_r : 10.

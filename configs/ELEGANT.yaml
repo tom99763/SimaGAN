@@ -1,0 +1,7 @@
+nclass : 8
+dim : 64
+norm : 'l2'
+act : 'lrelu'
+num_downsamples : 5
+gan_loss : 'gan'
+gp_type : 'none'
